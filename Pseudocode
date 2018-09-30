@@ -1,0 +1,34 @@
+Moving Parts
+
+    Props 
+
+        score {sent to header component, from body component}
+        topScore {sent to header component, from body component}
+
+    option cards
+
+        Rendered dynamically on body component (from json?)
+        handleclick function
+            If this item not yet clicked,
+                set clicked value to true
+                increment score
+                if score is greater than topScore
+                    increment topScore
+                randomize order of images before rerendering
+            else
+                set all items clicked value to false
+                set score to zero
+                randomize order of images before rerendering
+
+Overall Layout
+
+    header
+        takes score and topScore as props
+    jumbotron
+    body
+        renders list in randomized order
+
+
+
+            
+
