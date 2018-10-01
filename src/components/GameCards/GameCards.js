@@ -3,9 +3,8 @@ import "./GameCards.css";
 
 const GameCard = props => (
     <div className="card">
-      <div className="img-container" id={props.id} key={props.id} onClick={() => props.handleClick(props.id)}>
-        <img alt={props.name} src={props.image} />
-      </div>
+      <img className="img-thumbnail" alt={props.name} src={props.image} id={props.id} key={props.id} onClick={() => props.handleClick(props.id)}>
+      </img>
     </div>
 );
 
