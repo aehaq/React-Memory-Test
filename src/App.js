@@ -24,17 +24,53 @@ class App extends Component {
     .sort( (a, b) => a[0]-b[0] )
     .map( (a) => a[1] )
 
-    this.setState({options})
+    this.setState({options: options})
   }
 
   handleClick = id => {
     //handle click
     const chosen = this.state.options.find(item =>item.id === id)
-    console.log(chosen)
+    
     if (chosen.clicked === true) {
+      // If the chosen item had already been clicked 
+
+      // Reset Score
+      this.setState({ score: 0 })
+
+      // Print the Game Reset Message
+      this.setState({ result: "Wrong! Game Reset. Try Again."})
+
+      // Set clicked state for all to false
+      this.setState({ options: this.state.options.map( (item) => item.clicked = false)})
+
+      // Randomize the array order again
+      this.randomizeOrder()
 
     } else {
-      chosen.clicked = true;
+      if (this.state.score === 11) {
+        // Reset Score
+        this.setState({ score: 0 })
+
+        // Set Top Score to 12
+        this.setState({ topScore: 12 })
+
+        // Print the Game Reset Message
+        this.setState({ result: "Congratulations! You Won! \n Feel free to play again."})
+
+        // Set clicked state for all to false
+        this.setState({ options: this.state.options.map( (item) => item.clicked = false)})
+      } else {
+
+        chosen.clicked = true;
+        this.setState({ score: this.state.score + 1})
+  
+        if (this.state.score >= this.state.topScore) {
+          this.setState({topScore: this.state.topScore + 1})
+        }
+
+        // Print message
+        this.setState({ result: "Choose another unique image..."})
+      }
 
       this.randomizeOrder()
     }
