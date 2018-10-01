@@ -27,6 +27,7 @@ class App extends Component {
         <Jumbotron />
         {this.state.options.map(option => (
         <GameCards 
+          handleClick={this.handleClick}
           id={option.id}
           key={option.id}
           image={option.image}
