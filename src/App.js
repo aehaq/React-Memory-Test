@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import options from "./options.json";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
+import Jumbotron from "./components/Jumbotron";
+import GameCards from "./components/GameCards";
 import './App.css';
 
 class App extends Component {
@@ -18,6 +22,7 @@ class App extends Component {
 
   handleClick = id => {
     //handle click
+    console.log(`Image with ID: ${id} clicked`)
   }
 
   render() {
@@ -29,8 +34,8 @@ class App extends Component {
         <GameCards 
           handleClick={this.handleClick}
           id={option.id}
-          key={option.id}
           image={option.image}
+          name={option.name}
         />
         ))}
       </Wrapper>

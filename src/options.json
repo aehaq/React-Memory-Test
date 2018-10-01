@@ -1,62 +1,74 @@
 [
     {
         "id": 1,
-        "image": "/assets/images/animalfriend",
-        "clicked": false
+        "image": "/assets/images/animalfriend.gif",
+        "clicked": false,
+        "name": "Animal Boy"
     },
     {
         "id": 2,
-        "image": "/assets/images/blackwidow",
-        "clicked": false
+        "image": "/assets/images/blackwidow.gif",
+        "clicked": false,
+        "name": "Black Widow Girl"
     },
     {
         "id": 3,
-        "image": "/assets/images/strength",
-        "clicked": false
+        "image": "/assets/images/strength.gif",
+        "clicked": false,
+        "name": "Strong Boy"
     },
     {
         "id": 4,
-        "image": "/assets/images/cannibal",
-        "clicked": false
+        "image": "/assets/images/cannibal.gif",
+        "clicked": false,
+        "name": "Cannibal Boy"
     },
     {
         "id": 5,
-        "image": "/assets/images/charisma",
-        "clicked": false
+        "image": "/assets/images/charisma.gif",
+        "clicked": false,
+        "name": "Charisma Boy"
     },
     {
         "id": 6,
-        "image": "/assets/images/crippled",
-        "clicked": false
+        "image": "/assets/images/crippled.gif",
+        "clicked": false,
+        "name": "Crippled Boy"
     },
     {
         "id": 7,
-        "image": "/assets/images/giver",
-        "clicked": false
+        "image": "/assets/images/giver.gif",
+        "clicked": false,
+        "name": "Life Giving Boy"
     },
     {
         "id": 8,
-        "image": "/assets/images/hero",
-        "clicked": false
+        "image": "/assets/images/hero.gif",
+        "clicked": false,
+        "name": "Super Boy"
     },
     {
         "id": 9,
-        "image": "/assets/images/luck",
-        "clicked": false
+        "image": "/assets/images/luck.gif",
+        "clicked": false,
+        "name": "Unlucky Boy"
     },
     {
         "id": 10,
-        "image": "/assets/images/nerdrage",
-        "clicked": false
+        "image": "/assets/images/nerdrage.gif",
+        "clicked": false,
+        "name": "Nerd Rage Boy"
     },
     {
         "id": 11,
-        "image": "/assets/images/steelbones",
-        "clicked": false
+        "image": "/assets/images/steelbones.gif",
+        "clicked": false,
+        "name": "Skelly Boy"
     },
     {
         "id": 12,
-        "image": "/assets/images/stop",
-        "clicked": false
+        "image": "/assets/images/stop.gif",
+        "clicked": false,
+        "name": "Stop Boy"
     }
 ]
