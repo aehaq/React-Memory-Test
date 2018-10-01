@@ -1,7 +1,8 @@
 import React from "react";
+import "./Jumbotron.css";
 
 const Jumbotron = () => (
-    <div className="jumbotron text-center">
+    <div className="jumbotron text-center text-white">
         <h1 className="display-4">M.E.M. Test</h1>
         <hr />
         <p className="lead"> Welcome to the M.E.M. (Memory Evaluation Metric) test. Please click on any card to Proceed. <br />  If you click any card more than once, you will fail the test and must start over. <br /> <br /> Good Luck!</p>

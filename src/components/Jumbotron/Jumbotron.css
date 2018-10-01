@@ -1,0 +1,10 @@
+.jumbotron {
+    background-color: transparent !important;
+    padding-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 579px) {
+    .display-4 {
+        visibility: hidden;
+    }
+}

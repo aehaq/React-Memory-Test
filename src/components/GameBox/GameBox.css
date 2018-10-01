@@ -1,4 +1,22 @@
 .container-fluid {
-    max-width: 900px;
+    max-width: 1200px;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1110px) {
+    .container-fluid {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .container-fluid {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .container-fluid {
+        max-width: 300px;
+    }
 }
