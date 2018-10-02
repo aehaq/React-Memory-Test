@@ -1,5 +1,7 @@
 # React-Memory-Test
-React Memory Test is a memory game built 
+React Memory Test is a memory game built enitrely using React.js framework. The goal of the game is to click all twelve images in a row without clicking any given image more than once. The App is dynamically adjusted and re-rendered onto the DOM whenever the user interacts with the game objects.
+
+Images used in this app are from the Fallout Video Game Series, an IP owned by Bethesda Softworks.
 
 # Link to Deployed Site
 [M.E.M Test](https://aehaq.github.io/React-Memory-Test/)
@@ -10,6 +12,8 @@ React Memory Test is a memory game built
 # Technology Used
 - React.js
 - JSX
+- Javascript ES6
+- Yarn
 - GitHub Pages
 
 # Code Snippets
@@ -73,11 +77,11 @@ The State has five key-value pairs which are used to run the game, and the optio
 Aside from whether or not the image in question has been clicked before, this logic also keeps track of the scores, and sends different game messages to indicate your current performance in the game.
 
 # Learning Points
-- Setting up and dploying react apps
-- Using JSX to insert variables into html
-- Using set state
-- Following React MVC
-- Components for React
+- Creating React Apps and developing with an active test-build open in browser for more fluid bug and feature testing
+- Using JSX to insert JavaScript variables directly into HTML code, allowing for dynamic alteration of the DOM.
+- Setting and updating an App's State to alter JavaScript elements as a direct result of user input.
+- Following React standard MVC, including isolation of component features which are then exported to and controlled by a central App JavaScript file.
+- Deploying an application to GitHub Pages.
 
 # Author 
 Azfar Haq - [GitHub](https://github.com/aehaq)
