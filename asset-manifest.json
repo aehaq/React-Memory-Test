@@ -1,6 +1,15 @@
 {
-  "main.css": "static/css/main.f90ebfe4.css",
-  "main.css.map": "static/css/main.f90ebfe4.css.map",
-  "main.js": "static/js/main.52a1dc25.js",
-  "main.js.map": "static/js/main.52a1dc25.js.map"
+  "files": {
+    "main.css": "/React-Memory-Test/static/css/main.9a5a6048.chunk.css",
+    "main.js": "/React-Memory-Test/static/js/main.20571ecc.chunk.js",
+    "main.js.map": "/React-Memory-Test/static/js/main.20571ecc.chunk.js.map",
+    "runtime-main.js": "/React-Memory-Test/static/js/runtime-main.03e0462e.js",
+    "runtime-main.js.map": "/React-Memory-Test/static/js/runtime-main.03e0462e.js.map",
+    "static/js/2.1820918c.chunk.js": "/React-Memory-Test/static/js/2.1820918c.chunk.js",
+    "static/js/2.1820918c.chunk.js.map": "/React-Memory-Test/static/js/2.1820918c.chunk.js.map",
+    "index.html": "/React-Memory-Test/index.html",
+    "precache-manifest.1d8a916e579ab07df84dec8850769881.js": "/React-Memory-Test/precache-manifest.1d8a916e579ab07df84dec8850769881.js",
+    "service-worker.js": "/React-Memory-Test/service-worker.js",
+    "static/css/main.9a5a6048.chunk.css.map": "/React-Memory-Test/static/css/main.9a5a6048.chunk.css.map"
+  }
 }
