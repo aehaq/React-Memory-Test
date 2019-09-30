@@ -84,7 +84,10 @@ Aside from whether or not the image in question has been clicked before, this lo
 - Deploying an application to GitHub Pages.
 
 # Author 
-Azfar Haq - [GitHub](https://github.com/aehaq)
+Azfar Haq 
+- [Portfolio](http://thehaqer.com/)
+- [LinkedIn](https://www.linkedin.com/in/azzihaq/)
+- [GitHub](https://github.com/aehaq)
 
 # License
 Standard MIT License
